@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>calculotar</title>
+</head>
+
+<body>
+    <div class="calculotar-body">
+        <table>
+            <tr>
+                <td colspan="4" ></td><input type="text" id="myResuld"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="C" onclick="deleteMe('c')"></td>
+                <td><input type="button" value="(" onclick="calculotar('(')"></td>
+                <td><input type="button" value=")" onclick="calculotar(')')"></td>
+            </tr>
+
+
+            <tr>
+                <td><input type="button" value="7" onclick="calculotar('7')"></td>
+                <td><input type="button" value="8" onclick="calculotar('8')"></td>
+                <td><input type="button" value="9" onclick="calculotar('9')"></td>
+                <td><input type="button" value="+" onclick="calculotar('+')"></td> 
+            </tr>
+   
+            <tr>
+                <td><input type="button" value="4" onclick="calculotar('4')"></td>
+                <td><input type="button" value="5" onclick="calculotar('5')"></td>
+                <td><input type="button" value="6" onclick="calculotar('6')"></td>
+                <td><input type="button" value="-" onclick="calculotar('-')"></td> 
+            </tr>
+
+            <tr>
+                <td><input type="button" value="1" onclick="calculotar('1')"></td>
+                <td><input type="button" value="2" onclick="calculotar('2')"></td>
+                <td><input type="button" value="3" onclick="calculotar('3')"></td>
+                <td><input type="button" value="*" onclick="calculotar('*')"></td> 
+            </tr>
+
+            <tr>
+                <td><input type="button" value="0" onclick="calculotar('0')"></td>
+                <td><input type="button" value="." onclick="calculotar('.')"></td>
+                <td><input type="button" value="/" onclick="calculotar('/')"></td>
+                <td><input type="button" value="=" onclick="Answer('=')"></td>   
+            </tr>
+
+
+<script src="style.js"></script>
+        </table>
+    </div>
+
+</body>
+
+</html>
